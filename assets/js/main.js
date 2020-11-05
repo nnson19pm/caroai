@@ -4,7 +4,7 @@ $(function () {
 
    // Cảnh báo khi down load
     $("#btn-download").on('click', function () {
-        alert(" Cảnh báo :Game được dựa trên bộ thuật toán AI để giả lập tình huống vô cùng phức tạp,có thể khiến windows defence hiểu nhầm đầy là virus");
+        alert("Cảnh báo :Game được dựa trên bộ thuật toán AI để giả lập tình huống vô cùng phức tạp,có thể khiến windows defence hiểu nhầm đầy là virus");
     });
     
     $("#btn-exfb").on('click', function () {
@@ -27,7 +27,7 @@ $(function () {
             $(".navbar .navbar-brand img").attr("src", "assets/images/Tic_tac_toe_logo_neon.png");
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/Tic_tac_toe_logo_neon.png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/Spider_Tona.png");
         }
     });
 
